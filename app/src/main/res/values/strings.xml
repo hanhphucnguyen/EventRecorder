@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EventRecorder-PhucNguyen</string>
+    <string name="intro">Student Event Recorder</string>
+    <string name="createRc">Create Event</string>
+    <string name="showRc">Show recorded event</string>
+    <string name="about">About me</string>
+    <string name="ra_intro">Record Activities</string>
+    <string name="sh_intro">Show Activities</string>
+    <string name="about_intro">About Activities</string>
+    <string name="returnMain">RETURN TO MAIN MENU</string>
+
+</resources>
