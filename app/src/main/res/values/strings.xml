@@ -1,12 +1,38 @@
 <resources>
     <string name="app_name">EventRecorder-PhucNguyen</string>
     <string name="intro">Student Event Recorder</string>
+
     <string name="createRc">Create Event</string>
     <string name="showRc">Show recorded event</string>
-    <string name="about">About me</string>
-    <string name="ra_intro">Record Activities</string>
-    <string name="sh_intro">Show Activities</string>
-    <string name="about_intro">About Activities</string>
+    <string name="about">About</string>
+
+    <string name="ra_intro">RECORD EVENT</string>
+    <string name="ra_eventName">Event Name:</string>
+    <string name="ra_eventNameEdit"></string>
+    <string name="ra_hint">name of the course</string>
+    <string name="ra_eventType">Event Type:</string>
+    <string name="ra_eventLevel">Important:</string>
+    <string name="ra_saveEvent">Save This Event</string>
+    <string-array name="ra_spinnerContent">
+        <item>Test</item>
+        <item>Assignment</item>
+        <item>Quiz</item>
+        <item>Project</item>
+    </string-array>
+    <string name="ra_datetime">Date/Time</string>
+    <string name="ra_date">Enter Time</string>
+
+
+
+    <string name="sh_intro">SHOW EVENT RECORDED</string>
+    <string name="sh_showTextRecord">click \"SHOW RECORD\" button to show</string>
+    <string name="sh_showRecord">SHOW RECORD</string>
+    <string name="sh_deleteLast">DELETE LAST RECORD</string>
+    <string name="sh_deleteAll">DELETE ALL RECORD</string>
+
+    <string name="about_intro">ABOUT</string>
+    <string name="about_author">Author: Nguyen Hanh Phuc - Student ID 0835414</string>
+    <string name="about_disription">Description: This App will record all Test/Assignment/Quiz/Project due date for student. </string>
     <string name="returnMain">RETURN TO MAIN MENU</string>
 
 </resources>

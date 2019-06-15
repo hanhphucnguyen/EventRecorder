@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
+ /*   @Override
     protected void onPause() {
         super.onPause();
         // save shared_pref
@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = settings.edit();
 
-       /* editor.putString("name",editTextName.getText().toString());
+       *//* editor.putString("name",editTextName.getText().toString());
         editor.putInt("spinner",spinnerNum.getSelectedItemPosition());
-        editor.putFloat("rating",ratingBar.getRating());*/
+        editor.putFloat("rating",ratingBar.getRating());*//*
 
         // write shared pref to file
         editor.apply();
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences settings = getSharedPreferences("eventrecord",
                 Context.MODE_PRIVATE);
 
-        /*editTextName.setText(settings.getString("name",""));
+        *//*editTextName.setText(settings.getString("name",""));
         spinnerNum.setSelection(settings.getInt("spinner",0));
-        ratingBar.setRating(settings.getFloat("rating",0.0f));*/
-    }
+        ratingBar.setRating(settings.getFloat("rating",0.0f));*//*
+    }*/
 }
